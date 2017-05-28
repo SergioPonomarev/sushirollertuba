@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Verdana", "Geneva", "Arial", "Helvetica", sans-serif;
+}
+
+header {
+    /*width: 100%;
+    height: 100%;*/
+    /*background: url('../images/headerBG.png') repeat;*/
+    /*background: #000;*/
+    /*margin-bottom: 20px;*/
+}
+
+    .header {
+        width: 100%;
+        background: #000;
+        /*opacity: 0;*/
+    }
+
+        .header__conteiner {
+            width: 960px;
+            margin: auto;
+        }
+
+            .logo {
+                padding: 20px;
+                display: inline-block;
+                width: 170px;
+            }
+
+                .logo img {
+                    width: 100%;
+                }
+
+            .menu {
+                display: inline-block;
+                vertical-align: super;
+                font-size: 16px;
+                margin-left: 135px;
+            }
+
+                .menu ul {
+                    list-style: none;
+                    text-transform: uppercase;
+                }
+
+                .menu__item {
+                    float: left;
+                    padding: 0 20px;
+                }
+
+                    .menu__item a {
+                        width: 100%;
+                        height: 100%;
+                        text-decoration: none;
+                        color: #fff;
+                    }
+
+                .menu__separator {
+                    width: 1px;
+                    background-color: #fff;
+                    height: 20px;
+                    padding: 0;
+                    float: left;
+                }
+
+/*HEADHESIVE START*/
+
+    .headhesive {
+        position: fixed;
+        transform: translateY(-100%);
+        transition: 0.5s;
+        /*opacity: 1;*/
+    }
+
+    .headhesive--stick {
+        transform: translateY(0);
+        z-index: 9999;
+        background: rgba(0, 0, 0, 0.77);
+    }
+
+    .headhesive--stick .logo {
+        width: 100px;
+        margin-left: 30px;
+        padding: 10px;
+    }
+
+    .headhesive--stick .menu {
+        font-size: 12px;
+        vertical-align: middle;
+        margin-left: 285px;
+    }
+
+    .headhesive--stick .menu__separator {
+        height: 16px;
+    }
+
+/*HEADHESIVE START*/
+
+/*MAIN START*/
+
+.container__slider {
+    width: 960px;
+    margin: 80px auto;
+}
+
+.docs {
+    display: inline-block;
+}
+
+.content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.main-content {
+    width: 100%;
+    display: inline-block;
+}
+
+    .tuba__img {
+        width: 690px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .text__top {
+        text-align: center;
+    }
+
+        .text__top_red {
+            color: red;
+            font-weight: bold;
+            font-size: 26px;
+            line-height: 150%;
+        }
+
+        .text__top_black {
+            color: black;
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 150%;
+        }
+
+    .text__middle {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+        .text__middle_black {
+            font-weight: bold;
+            line-height: 130%;
+            font-size: 14px;
+            color: black;
+        }
+
+        .text__middle_gold {
+            font-size: 18px;
+            color: #b86415;
+            letter-spacing: 0.1em;
+        }
+
+    .article__img {
+        float: left;
+        display: inline-block;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+
+    .article {
+        width: 801px;
+        margin: 0 auto;
+    }
+
+        .article__text {
+            display: inline-block;
+        }
+
+            .article__text_top {
+                font-size: larger;
+                margin-bottom: 30px;
+                position: relative;
+                width: 599px;
+            }
+
+                .article__text_top_red {
+                    font-weight: bold;
+                    color: red;
+                }
+
+                .article__text_top_normal {
+                    position: absolute;
+                    right: 0;
+                }
+
+        .article__text_main {
+            line-height: 30px;
+            position: relative;
+        }
+
+            .article__text_floatleft {
+                float: left;
+                display: inline-block;
+            }
+
+            .article__price {
+                display: inline-block;
+                font-size: larger;
+                font-weight: bold;
+                color: red;
+                position: absolute;
+                right: 0;
+            }
+
+    .clear {
+        clear: both;
+    }
+
+    .text__bottom {
+        margin: 20px;
+        line-height: 25px;
+        text-align: justify;
+    }
+
+        .text__bottom_sample {
+            width: 87%;
+            margin: 0 auto;
+            color: red;
+            font-weight: bold;
+            font-size: larger;
+        }
+
+    .map {
+        width: 900px;
+        margin: 20px auto;
+    }
+
+/*MAIN END*/
+
+/*START ASIDE*/
+
+.footer {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+    .footer__wrapper {
+        width: 792px;
+        margin: auto;
+    }
+
+        .contact__info {
+            padding: 5px;
+            line-height: 200%;
+            display: inline-block;
+        }
+
+        .footer__separator {
+            display: inline-block;
+            width: 1px;
+            height: 280px;
+            background: rgba(0, 0, 0, 0.6);
+            float: left;
+            margin: 15px 10px;
+        }
+
+        .contact__form {
+            display: inline-block;
+            float: left;
+        }
+
+            .contact__form_line {
+                width: 272px;
+                line-height: 25px;
+                margin: 5px;
+                padding: 2px;
+            }
+
+            .contact__form_message {
+                max-width: 272px;
+                width: 272px;
+                max-height: 100px;
+                height: 100px;
+                margin: 5px;
+                padding: 2px;
+            }
+
+            .contact__form_button {
+                width: 280px;
+                margin: 5px;
+                line-height: 27px;
+                font-size: medium;
+            }
+
+/*END ASIDE*/
