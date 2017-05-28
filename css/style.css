@@ -105,7 +105,7 @@ header {
 
 .container__slider {
     width: 960px;
-    margin: 80px auto;
+    margin: 40px auto 35px;
 }
 
 .docs {
@@ -232,7 +232,15 @@ header {
             color: red;
             font-weight: bold;
             font-size: larger;
+            text-align: center;
         }
+
+    .docs__text {
+        text-align: center;
+        font-weight: bold;
+        line-height: 30px;
+        margin: 20px 0;
+    }
 
     .map {
         width: 900px;
