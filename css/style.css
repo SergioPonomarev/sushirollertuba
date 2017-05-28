@@ -222,14 +222,15 @@ header {
     }
 
     .text__bottom {
-        margin: 20px;
+        margin: 15px 20px 5px;
         line-height: 25px;
         text-align: center;
+        font-size: 15px;
     }
 
         .text__bottom_sample {
             width: 87%;
-            margin: 10px auto 30px;
+            margin: 0 auto 35px;
             color: red;
             font-weight: bold;
             font-size: larger;
