@@ -223,7 +223,7 @@ header {
     .text__bottom {
         margin: 20px;
         line-height: 25px;
-        text-align: justify;
+        text-align: center;
     }
 
         .text__bottom_sample {
