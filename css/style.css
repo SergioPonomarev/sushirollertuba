@@ -269,11 +269,11 @@ header {
         .contact__info {
             padding: 5px;
             line-height: 200%;
-            display: inline-block;
+            display: block;
         }
 
         .footer__separator {
-            display: inline-block;
+            display: block;
             width: 1px;
             height: 280px;
             background: rgba(0, 0, 0, 0.6);
@@ -282,7 +282,7 @@ header {
         }
 
         .contact__form {
-            display: inline-block;
+            display: block;
             float: left;
         }
 
