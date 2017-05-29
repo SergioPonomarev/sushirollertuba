@@ -267,9 +267,9 @@ header {
     }
 
         .contact__info {
-            padding: 5px;
             line-height: 200%;
-            display: block;
+            display: inline-block;
+            margin-top: 12px;
         }
 
         .footer__separator {
@@ -284,6 +284,7 @@ header {
         .contact__form {
             display: block;
             float: left;
+            margin-top: 12px;
         }
 
             .contact__form_line {
